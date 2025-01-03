@@ -21,7 +21,7 @@ export default function ProjectLists() {
                   src={project.logo}
                   alt={project.alt}
                   title={project.title}
-                  className="h-8 w-8"
+                  className="h-8 w-8 rounded-full"
                   width={32}
                   height={32}
                 />

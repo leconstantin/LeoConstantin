@@ -1,6 +1,17 @@
 import { TCertificate } from "@/types";
 
-export const Specialcertificates: TCertificate[] = [
+export const DigitalSkillscertificates: TCertificate[] = [
+  {
+    image: "/cert-specialization.png",
+    title: "Digital Skills Foundation Certificate",
+    subtitle: "Digital Skills",
+    date: "December 2024",
+    organization: "Google Digital Skills for Africa",
+    category: "Digital Skills",
+    link: "",
+  },
+];
+export const WebdevCertificates: TCertificate[] = [
   {
     image: "/cert-specialization.png",
     title: "Meta Front-End Developer Certificate",
@@ -11,27 +22,7 @@ export const Specialcertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-specialization.png",
-    title: "ILEAD Leadership Certificate",
-    subtitle: "Leadership",
-    date: "December 2024",
-    organization: "MAXWELL LEADERSHIP FOUNDATION",
-    category: "Leadership",
-    link: "",
-  },
-  {
-    image: "/cert-specialization.png",
-    title: "Digital Skills FOUNDATION Certificate",
-    subtitle: "Digital Skills",
-    date: "December 2024",
-    organization: "Google Digital Skills for Africa",
-    category: "Digital Skills",
-    link: "",
-  },
-];
-export const Othercertificates: TCertificate[] = [
-  {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Version Control with Git",
     subtitle: "Version Control",
     date: "December 2024",
@@ -40,7 +31,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Introduction to HTML And Css",
     subtitle: "HTML5 and CSS3",
     date: "December 2024",
@@ -49,7 +40,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Advanced React",
     subtitle: "React",
     date: "December 2024",
@@ -58,7 +49,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Principles of UX/UI Design",
     subtitle: "UX/UI Design",
     date: "December 2024",
@@ -67,7 +58,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "React Basics",
     subtitle: "React",
     date: "December 2024",
@@ -76,7 +67,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "HTML and CSS in depth",
     subtitle: "HTML5 and CSS3",
     date: "December 2024",
@@ -85,7 +76,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Coding Interview Preparation",
     subtitle: "Interview Preparation",
     date: "December 2024",
@@ -94,7 +85,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Front-End Developer Capstone",
     subtitle: "Front-End Developer",
     date: "December 2024",
@@ -102,26 +93,39 @@ export const Othercertificates: TCertificate[] = [
     category: "Front-End Development",
     link: "",
   },
+];
+export const LeadershipCertificates: TCertificate[] = [
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "iDo Leadership Certificate",
     subtitle: "Leadership",
     date: "December 2024",
-    organization: "MAXWELL LEADERSHIP FOUNDATION",
+    organization: "Maxwell Leadership Foundation",
     category: "Leadership",
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "iChoose Leadership Certificate",
     subtitle: "Leadership",
     date: "December 2024",
-    organization: "MAXWELL LEADERSHIP FOUNDATION",
+    organization: "Maxwell Leadership Foundation",
     category: "Leadership",
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-specialization.png",
+    title: "iLead Leadership Certificate",
+    subtitle: "Leadership",
+    date: "December 2024",
+    organization: "Maxwell Leadership Foundation",
+    category: "Leadership",
+    link: "",
+  },
+];
+export const PythonCertificates: TCertificate[] = [
+  {
+    image: "/cert-course.png",
     title: "Programming for Everybody (Getting Started with Python)",
     subtitle: "Python",
     date: "December 2024",
@@ -130,7 +134,7 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Python Data Structures",
     subtitle: "Python",
     date: "December 2024",
@@ -139,12 +143,31 @@ export const Othercertificates: TCertificate[] = [
     link: "",
   },
   {
-    image: "/cert-coursera.png",
+    image: "/cert-course.png",
     title: "Using Python to Access Web Data",
     subtitle: "Python",
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Python",
     link: "",
+  },
+];
+
+export const certificates = [
+  {
+    category: "Web Development",
+    certificates: WebdevCertificates,
+  },
+  {
+    category: "Digital Skills",
+    certificates: DigitalSkillscertificates,
+  },
+  {
+    category: "Leadership",
+    certificates: LeadershipCertificates,
+  },
+  {
+    category: "Python",
+    certificates: PythonCertificates,
   },
 ];
