@@ -8,10 +8,10 @@ export default function UsesList() {
         {uses.map((use, index) => (
           <section
             key={index}
-            className="md:border-l md:border-zinc-200  md:pl-6 dark:border-zinc-800"
+            className="md:border-l-2 md:border-zinc-100  md:pl-6 dark:border-zinc-800"
           >
             <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-              <h2 className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">
+              <h2 className="text-sm font-semibold text-teal-600 dark:text-zinc-100">
                 {use.category}
               </h2>
               <div className="md:col-span-3">

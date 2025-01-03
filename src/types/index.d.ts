@@ -42,3 +42,8 @@ export type TCertificate = {
   category: string;
   link: string;
 };
+
+export type CertificateCategory = {
+  category: string;
+  certificates: TCertificate[];
+};

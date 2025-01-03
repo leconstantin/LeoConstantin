@@ -1,4 +1,4 @@
-import { TCertificate } from "@/types";
+import { CertificateCategory, TCertificate } from "@/types";
 
 export const DigitalSkillscertificates: TCertificate[] = [
   {
@@ -96,6 +96,15 @@ export const WebdevCertificates: TCertificate[] = [
 ];
 export const LeadershipCertificates: TCertificate[] = [
   {
+    image: "/cert-specialization.png",
+    title: "iLead Leadership Certificate",
+    subtitle: "Leadership",
+    date: "December 2024",
+    organization: "Maxwell Leadership Foundation",
+    category: "Leadership",
+    link: "",
+  },
+  {
     image: "/cert-course.png",
     title: "iDo Leadership Certificate",
     subtitle: "Leadership",
@@ -113,19 +122,10 @@ export const LeadershipCertificates: TCertificate[] = [
     category: "Leadership",
     link: "",
   },
-  {
-    image: "/cert-specialization.png",
-    title: "iLead Leadership Certificate",
-    subtitle: "Leadership",
-    date: "December 2024",
-    organization: "Maxwell Leadership Foundation",
-    category: "Leadership",
-    link: "",
-  },
 ];
 export const PythonCertificates: TCertificate[] = [
   {
-    image: "/cert-course.png",
+    image: "/cert-specialization.png",
     title: "Programming for Everybody (Getting Started with Python)",
     subtitle: "Python",
     date: "December 2024",
@@ -153,7 +153,7 @@ export const PythonCertificates: TCertificate[] = [
   },
 ];
 
-export const certificates = [
+export const certificates: CertificateCategory[] = [
   {
     category: "Web Development",
     certificates: WebdevCertificates,

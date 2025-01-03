@@ -33,7 +33,7 @@ export default function CertificateList() {
                   </div>
                 </div>
                 <Link href={item.link} className="mt-4 sm:mt-0 sm:ml-4">
-                  <button className="w-full sm:w-auto bg-teal-500 text-white rounded-lg shadow-lg tracking-tight py-2 px-4 hover:bg-teal-600 transition-colors duration-200">
+                  <button className="w-full sm:w-auto bg-teal-500 text-white rounded-md shadow-lg tracking-tight py-2 px-4 hover:bg-teal-600 transition-colors duration-200">
                     View Certificate
                   </button>
                 </Link>

@@ -2,7 +2,7 @@ import { TUses } from "@/types";
 
 export const uses: TUses[] = [
   {
-    category: "dev",
+    category: "Dev",
     items: [
       {
         title: "Sublime Text",
@@ -17,7 +17,7 @@ export const uses: TUses[] = [
     ],
   },
   {
-    category: "design",
+    category: "Design",
     items: [
       {
         title: "Figma",
@@ -27,7 +27,7 @@ export const uses: TUses[] = [
     ],
   },
   {
-    category: "productivity",
+    category: "Productivity",
     items: [
       {
         title: "Alfred",
