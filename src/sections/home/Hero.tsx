@@ -1,3 +1,4 @@
+import { hero } from "@/config/home";
 import Image from "next/image";
 import { BsTwitterX } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa";
@@ -12,7 +13,7 @@ export default function Hero() {
           <Image
             width={500}
             height={500}
-            src="/me.jpeg"
+            src={hero.image}
             alt="Leo constantin image"
             title="Muhirwe Leo Constantin"
             loading="lazy"
@@ -23,27 +24,24 @@ export default function Hero() {
       <div className="max-w-2xl">
         <div className="pt-12 pb-2">
           <h1 className="text-4xl font-roboto font-semibold text-zinc-800 dark:text-zinc-100 sm:text-3xl flex flex-col justify-center gap-2">
-            👋 Hello! I&apos;m Constantin,{" "}
+            {hero.greet},{" "}
             <mark className="text-transparent bg-clip-text bg-gradient-to-r from-teal-800 via-teal-500 to-teal-400 dark:from-white dark:via-teal-400 dark:to-teal-600 w-80">
-              FrontEnd developer
+              {hero.role}
             </mark>{" "}
             <span className="text-lg text-zinc-700 dark:text-zinc-100">
-              based in Kigali , Rwanda.
+              based in {hero.location}
             </span>
           </h1>
           <p className="pt-6 font-roboto text-base text-zinc-600 dark:text-zinc-400">
-            I love building tools that are user-friendly, simple and delightful.
-            I was student at coursera learning FrontEnd Development course
-            provided by meta where i have gained different modern skills about
-            FrontEnd development.
+            {hero.description}.
           </p>
           <p className="py-6 font-roboto text-base text-zinc-600 dark:text-zinc-200">
-            I&apos;m currently looking for a new role as developer.{" "}
+            {hero.lookingFor}.{" "}
             <mark
               id="hire"
               className="bg-gradient-to-r from-teal-400 to-teal-700 text-transparent bg-clip-text "
             >
-              Contact me ?
+              {hero.hire}
             </mark>
           </p>
         </div>

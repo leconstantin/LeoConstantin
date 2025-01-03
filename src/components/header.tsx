@@ -8,9 +8,10 @@ export default function Header() {
       <nav className="flex items-center justify-between">
         <div className="flex">
           <Link href="/">
-            <p className="flex  font-bold  text-teal-400 text-xl cursor-pointer">
+            <p className="flex items-center font-bold text-teal-400 text-xl cursor-pointer">
               <span className="text-3xl">L</span>
-              <span className=""> | Constantin</span>
+              <span className="mx-2" />
+              <span> | Constantin</span>
             </p>
           </Link>
         </div>
