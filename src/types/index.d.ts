@@ -33,3 +33,12 @@ export type TUses = {
   category: string;
   items: Tuse[];
 };
+export type TCertificate = {
+  image: string;
+  title: string;
+  subtitle: string;
+  date: string;
+  organization: string;
+  category: string;
+  link: string;
+};
