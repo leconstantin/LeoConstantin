@@ -70,3 +70,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+@layer utilities {
+  .skill {
+    @apply ring-1 ring-zinc-200  size-20 flex justify-center items-center rounded-xl shadow-md hover:ring-teal-500 hover:scale-110 hover:rotate-3 ease-in duration-300 cursor-pointer dark:ring-zinc-700 dark:hover:ring-teal-300/10;
+  }
+}

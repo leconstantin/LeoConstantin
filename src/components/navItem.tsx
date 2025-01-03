@@ -18,7 +18,7 @@ export default function NavItem() {
         {navLinks.map((link) => (
           <Link href={link.path} key={link.id}>
             <span
-              className={`relative block font-roboto px-4 py-2 transition hover:text-teal-500
+              className={`relative block font-roboto px-4 py-2 transition-all ease-in-out hover:text-teal-500
                 ${pathName == link.path ? "text-teal-500" : ""}`}
             >
               {link.label}

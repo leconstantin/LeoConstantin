@@ -1,9 +1,21 @@
-import Image from "next/image";
+import Hero from "@/sections/home/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <main>
+      <Hero />
+      {/* <Skills />
+      <Projects />
+      <div>
+        <div className="py-16 sm:mt-20 ">
+          <div className="flex flex-wrap lg:flex-nowrap items-center justify-center gap-10">
+            <div>
+              <TicTacToe />
+            </div>
+            <Work />
+          </div>
+        </div>
+      </div> */}
+    </main>
   );
 }
