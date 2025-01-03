@@ -1,11 +1,12 @@
 import Hero from "@/sections/home/Hero";
+import Skills from "@/sections/home/Skills";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      {/* <Skills />
-      <Projects />
+      <Skills />
+      {/* <Projects />
       <div>
         <div className="py-16 sm:mt-20 ">
           <div className="flex flex-wrap lg:flex-nowrap items-center justify-center gap-10">
