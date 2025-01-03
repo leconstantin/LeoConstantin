@@ -2,7 +2,6 @@ import AboutImage from "@/sections/about/AboutImage";
 import AboutMe from "@/sections/about/AboutMe";
 import Follow from "@/sections/about/Follow";
 import type { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About",

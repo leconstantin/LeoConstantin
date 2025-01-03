@@ -9,8 +9,14 @@ import { SiPhp } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
+import { JSX } from "react";
 
-const skills = [
+type Skill = {
+  name: string;
+  logo: JSX.Element;
+};
+
+const skills: Skill[] = [
   { name: "HTML", logo: <FaHtml5 size={39} /> },
   { name: "Css", logo: <FaCss3Alt size={39} /> },
   { name: "JavaScript", logo: <IoLogoJavascript size={39} /> },

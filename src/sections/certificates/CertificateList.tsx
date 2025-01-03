@@ -1,7 +1,6 @@
 import { certificates } from "@/config/certificates";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function CertificateList() {
   return (
