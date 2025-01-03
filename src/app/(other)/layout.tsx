@@ -1,3 +1,6 @@
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+
 export default function OtherLayout({
   children,
 }: {
@@ -5,8 +8,9 @@ export default function OtherLayout({
 }) {
   return (
     <>
-      <div>Other layout</div>
+      <Header hasImage={true} />
       {children}
+      <Footer />
     </>
   );
 }
