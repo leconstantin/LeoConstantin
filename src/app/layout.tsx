@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Container from "@/components/container";
+import { siteConfig } from "@/config/site";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -12,11 +13,45 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Leo Constantin, Developer",
-    template: "%s - Leo Constantin",
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
   },
-  description:
-    "Portifolio of Leo Constantin , a FrontEnd Developer showcasing projects, skills, and experience in web development. Let's build something great together!",
+  description: siteConfig.description,
+  keywords: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Server Components",
+    "Radix UI",
+  ],
+  authors: [
+    {
+      name: "shadcn",
+      url: "https://shadcn.com",
+    },
+  ],
+  creator: "shadcn",
+
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [`${siteConfig.url}/og.jpg`],
+    creator: "@shadcn",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
