@@ -18,7 +18,7 @@ export default function Header({ hasImage }: { hasImage?: boolean }) {
                   src="/me.jpeg"
                   alt="Leo constantin image"
                   title="Muhirwe Leo Constantin"
-                  className="h-6 w-6 md:h-12 md:w-12 rounded-full object-cover bg-zinc-300 dark:bg-zinc-800"
+                  className="h-6 w-6 md:h-10 md:w-10 rounded-full object-cover bg-zinc-300 dark:bg-zinc-800"
                 />
               </div>
             ) : (
