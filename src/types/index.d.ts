@@ -9,7 +9,18 @@ export type SiteConfig = {
   };
 };
 export type NavLink = {
-  id: number,
-  path: string,
-  label: string
-}
+  id: number;
+  path: string;
+  label: string;
+};
+
+export type Project = {
+  id: number;
+  logo: string;
+  alt: string;
+  title: string;
+  hostlink: string;
+  githublink: string;
+  subtitile: string;
+  time: string;
+};
