@@ -40,3 +40,24 @@ export const images = [
     alt: "",
   },
 ];
+
+export const works = [
+  {
+    logo: "C",
+    Place: "Coursera",
+    Role: "Student",
+    Date: "2024 - Present",
+  },
+  {
+    logo: "E",
+    Place: "Ecole des science Byimana",
+    Role: "Student",
+    Date: "2021 - 2024",
+  },
+  {
+    logo: "A",
+    Place: "Academie dela salle",
+    Role: "Student",
+    Date: "2018 - 2021",
+  },
+];
