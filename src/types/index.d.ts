@@ -24,3 +24,12 @@ export type Project = {
   subtitile: string;
   time: string;
 };
+
+export type TUse = {
+  title: string;
+  subtitle: string;
+};
+export type TUses = {
+  category: string;
+  items: Tuse[];
+};
