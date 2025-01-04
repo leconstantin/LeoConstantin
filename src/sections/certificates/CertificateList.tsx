@@ -31,11 +31,15 @@ export default function CertificateList() {
                     <p className="text-gray-600">{item.organization}</p>
                   </div>
                 </div>
-                <Link href={item.link} className="mt-4 sm:mt-0 sm:ml-4">
-                  <button className="w-full sm:w-auto bg-teal-500 text-white rounded-md shadow-lg tracking-tight py-2 px-4 hover:bg-teal-600 transition-colors duration-200">
+                <a
+                  href={item.link}
+                  target="_blank"
+                  className="mt-4 sm:mt-0 sm:ml-4"
+                >
+                  <button className="w-full sm:w-auto bg-teal-500 text-white rounded-md shadow-lg tracking-tight py-2 px-4 hover:bg-teal-600 active:bg-teal-700 visited:bg-teal-500 transition-colors duration-200">
                     View Certificate
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           ))}

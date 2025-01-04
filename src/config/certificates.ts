@@ -8,7 +8,7 @@ export const DigitalSkillscertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Google Digital Skills for Africa",
     category: "Digital Skills",
-    link: "",
+    link: "https://training.digitalskillsfdn.org/pluginfile.php/1/tool_certificate/issues/1694700901/9729963503ML.pdf",
   },
 ];
 export const WebdevCertificates: TCertificate[] = [
@@ -111,7 +111,7 @@ export const LeadershipCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Maxwell Leadership Foundation",
     category: "Leadership",
-    link: "",
+    link: "https://drive.google.com/file/d/1GgtTgvUPAmlmwz7G-Q4G3A_Jd0wG1TdW/view?usp=sharing",
   },
   {
     image: "/cert-course.png",
@@ -120,7 +120,7 @@ export const LeadershipCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Maxwell Leadership Foundation",
     category: "Leadership",
-    link: "",
+    link: "https://drive.google.com/file/d/18j75ufAEWYgqHLPbWp-Fhtdu3k4IpC6z/view?usp=sharing",
   },
   {
     image: "/cert-course.png",
@@ -129,7 +129,7 @@ export const LeadershipCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Maxwell Leadership Foundation",
     category: "Leadership",
-    link: "",
+    link: "https://drive.google.com/file/d/1wdGjjXqI7lVe4NSbkZFuC5W4_1nFpS6V/view?usp=sharing",
   },
 ];
 export const PythonCertificates: TCertificate[] = [
@@ -140,7 +140,7 @@ export const PythonCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Python",
-    link: "",
+    link: "https://www.coursera.org/account/accomplishments/verify/X3Q24PALH510",
   },
   {
     image: "/cert-course.png",
@@ -149,7 +149,7 @@ export const PythonCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Python",
-    link: "",
+    link: "https://www.coursera.org/account/accomplishments/verify/HU1VDDHQM2UP",
   },
   {
     image: "/cert-course.png",
@@ -158,7 +158,7 @@ export const PythonCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Python",
-    link: "",
+    link: "https://www.coursera.org/account/accomplishments/verify/JWYVBPOLKV6S",
   },
 ];
 
