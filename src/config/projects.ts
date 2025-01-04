@@ -14,7 +14,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    logo: "/me.jpeg6",
+    logo: "/me.jpeg",
     alt: "logo of my engine",
     title: "My Search Engine",
     hostlink: "myengine.vercel.app",
