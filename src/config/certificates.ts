@@ -19,7 +19,16 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Front-End Development",
-    link: "",
+    link: "https://coursera.org/share/8479e076469ca867565f54b0053b946a",
+  },
+  {
+    image: "/cert-Coursera.png",
+    title: "Introduction Front-End Developement Certificate",
+    subtitle: "Front-End Developement",
+    date: "December 2024",
+    organization: "Coursera Meta",
+    category: "Introduction",
+    link: "https://coursera.org/share/9b62fdb73dd8e269f46ade259530fe6d ",
   },
   {
     image: "/cert-course.png",
@@ -28,16 +37,16 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Version Control",
-    link: "",
+    link: "https://coursera.org/share/b471e6d0ed1291c9c3246ab61674ef53 ",
   },
   {
     image: "/cert-course.png",
-    title: "Introduction to HTML And Css",
-    subtitle: "HTML5 and CSS3",
+    title: "Programming with Js",
+    subtitle: "JavaScript",
     date: "December 2024",
     organization: "Coursera Meta",
-    category: "HTML5 and CSS3",
-    link: "",
+    category: "JavaScript",
+    link: "https://coursera.org/share/968b4301eacd0135393f370a05020736",
   },
   {
     image: "/cert-course.png",
@@ -46,7 +55,7 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "React",
-    link: "",
+    link: "https://coursera.org/share/f23256123c7e2b7f06b30a3ddcdd6818",
   },
   {
     image: "/cert-course.png",
@@ -55,7 +64,7 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Design",
-    link: "",
+    link: "https://coursera.org/share/029b794048f52d722ed76ae35747c94c",
   },
   {
     image: "/cert-course.png",
@@ -64,7 +73,7 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "React",
-    link: "",
+    link: "https://coursera.org/share/b893360e895006ba00dec0b7617c58ce",
   },
   {
     image: "/cert-course.png",
@@ -73,7 +82,7 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "HTML5 and CSS3",
-    link: "",
+    link: " https://coursera.org/share/954ea0bbd27b65fc01fdbf22965a1830",
   },
   {
     image: "/cert-course.png",
@@ -82,7 +91,7 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Interview",
-    link: "",
+    link: "https://coursera.org/share/6a80afb24937d8bb1f25dfe1ac45dbf5",
   },
   {
     image: "/cert-course.png",
@@ -91,7 +100,7 @@ export const WebdevCertificates: TCertificate[] = [
     date: "December 2024",
     organization: "Coursera Meta",
     category: "Front-End Development",
-    link: "",
+    link: "https://coursera.org/share/3b53f517ba1550cd77aeea786b61daa9",
   },
 ];
 export const LeadershipCertificates: TCertificate[] = [
