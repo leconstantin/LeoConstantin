@@ -22,7 +22,7 @@ export const WebdevCertificates: TCertificate[] = [
     link: "https://coursera.org/share/8479e076469ca867565f54b0053b946a",
   },
   {
-    image: "/cert-Coursera.png",
+    image: "/cert-Course.png",
     title: "Introduction Front-End Developement Certificate",
     subtitle: "Front-End Developement",
     date: "December 2024",
