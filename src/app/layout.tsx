@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Container from "@/components/container";
 import { siteConfig } from "@/config/site";
+import { Analytics } from "@vercel/analytics/next";
+import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -26,11 +28,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "LeConstantin",
+      url: "https://le-constantin.vercel.app",
     },
   ],
-  creator: "shadcn",
+  creator: "leconstantin",
 
   openGraph: {
     type: "website",
@@ -65,6 +67,8 @@ export default function RootLayout({
       <body className={`${poppins.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <Container>{children}</Container>
+          <TailwindIndicator />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
