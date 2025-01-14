@@ -38,7 +38,7 @@ export default function ProjectLists() {
                   <span>
                     <IoIosLink />
                   </span>
-                  {project.hostlink}
+                  {project.slug ? project.slug : project.hostlink}
                 </a>
               </div>
             </div>
