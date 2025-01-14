@@ -27,11 +27,11 @@ export default function ProjectLists() {
                 />
               </div>
               <div>
-                <p className="font-semibold text-zinc-900 dark:text-zinc-100 pl-5">
+                <p className="font-semibold text-zinc-900 dark:text-zinc-100 pl-5 truncate">
                   {project.title}
                 </p>
                 <a
-                  className="text-zinc-600 dark:text-zinc-400 hover:underline inline-flex items-center gap-1 cursor-pointer"
+                  className="text-zinc-600 dark:text-zinc-400 hover:underline inline-flex items-center gap-1 cursor-pointer truncate"
                   href={`https://${project.hostlink}`}
                   target="_blank"
                 >
@@ -53,7 +53,7 @@ export default function ProjectLists() {
                 <span>
                   <BsGithub />
                 </span>
-                <span className="text-sm tracking-tight group-hover:text-teal-200">
+                <span className="text-sm tracking-tight group-hover:text-teal-200 truncate">
                   {project.githublink}
                 </span>
               </a>
