@@ -53,7 +53,7 @@ export const projects: Project[] = [
     id: 5,
     logo: "/me.jpeg",
     alt: "logo of landing",
-    title: "Contentlayer2 Web Application",
+    title: "Contentlayer2 Web",
     hostlink: "ui-contentlayer2-nextjs.vercel.app",
     githublink: "leconstantin/ui_contentlayer2_nextjs_shadcn",
     slug: "contelayer2",
