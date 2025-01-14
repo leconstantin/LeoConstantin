@@ -30,7 +30,7 @@ export default function NavItem() {
         <div onClick={handleNav}>
           <HiMenu
             size={29}
-            className="text-black hover:text-teal-400 cursor-pointer"
+            className="text-foreground hover:text-teal-400 cursor-pointer"
           />
         </div>
         <div

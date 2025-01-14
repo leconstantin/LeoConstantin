@@ -6,12 +6,12 @@ export default function CertificateList() {
     <>
       {certificates.map((certificate, index) => (
         <div className="mb-7 mt-20" key={index}>
-          <h2 className="text-sm font-bold text-gray-400 mb-3 tracking-tight">
+          <h2 className="text-sm font-bold text-muted-foreground mb-3 tracking-tight">
             {certificate.category}
           </h2>
           {certificate.certificates.map((item, i) => (
             <div
-              className="border mb-4 p-4 text-sm leading-6 text-gray-800 rounded-md"
+              className="border mb-4 p-4 text-sm leading-6 text-foreground rounded-md"
               key={i}
             >
               <div className="flex flex-col md:flex-row">
@@ -27,7 +27,7 @@ export default function CertificateList() {
                   </div>
                   <div className="flex-1 pl-4">
                     <p className="font-semibold">{item.title}</p>
-                    <p className="text-gray-600">{item.organization}</p>
+                    <p className="text-muted-foreground">{item.organization}</p>
                   </div>
                 </div>
                 <a
