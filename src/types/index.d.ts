@@ -21,6 +21,7 @@ export type Project = {
   title: string;
   hostlink: string;
   githublink: string;
+  slug: string;
   subtitile: string;
   time: string;
 };

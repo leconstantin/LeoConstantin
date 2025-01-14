@@ -54,7 +54,7 @@ export default function ProjectLists() {
                   <BsGithub />
                 </span>
                 <span className="text-sm tracking-tight group-hover:text-teal-200 truncate">
-                  {project.githublink}
+                  {project.slug ? project.slug : project.githublink}
                 </span>
               </a>
             </div>
