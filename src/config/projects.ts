@@ -6,8 +6,8 @@ export const projects: Project[] = [
     logo: "/me.jpeg",
     alt: "logo of portifolio",
     title: "Portifolio",
-    hostlink: "leconstantin.vercel.app",
-    githublink: "leconstantin/nextPortifolio",
+    hostlink: "le-constantin.vercel.app",
+    githublink: "leconstantin/LeoConstantin",
     subtitile:
       "Creating technology to empower civilians to explore space on their own terms.",
     time: "13d ago",
@@ -39,8 +39,8 @@ export const projects: Project[] = [
     logo: "/me.jpeg",
     alt: "logo academie",
     title: "School website",
-    hostlink: "nextacademie.vercel.app",
-    githublink: "leconstantin/nextAcademie",
+    hostlink: "academie-indol.vercel.app",
+    githublink: "leconstantin/academie",
     subtitile:
       "Creating technology to empower civilians to explore space on their own terms.",
     time: "6d ago",
@@ -49,12 +49,12 @@ export const projects: Project[] = [
     id: 5,
     logo: "/me.jpeg",
     alt: "logo of landing",
-    title: "Landing Page",
-    hostlink: "landingone.vercel.app",
-    githublink: "leconstantin/landingOne",
+    title: "Contentlayer2 Web Application",
+    hostlink: "ui-contentlayer2-nextjs.vercel.app",
+    githublink: "leconstantin/ui_contentlayer2_nextjs_shadcn",
     subtitile:
-      "Creating technology to empower civilians to explore space on their own terms.",
-    time: "15d ago",
+      "Creating blogs have never been easy but while using contentlayer2 now is easy and effective.",
+    time: "Jan 2",
   },
   {
     id: 6,
@@ -66,5 +66,16 @@ export const projects: Project[] = [
     subtitile:
       "Creating technology to empower civilians to explore space on their own terms.",
     time: "15d ago",
+  },
+  {
+    id: 7,
+    logo: "/me.jpeg",
+    alt: "logo of nextPen",
+    title: "Simple Design",
+    hostlink: "app-router-nextjs-iota.vercel.app",
+    githublink: "leconstantin/app_router_nextjs",
+    subtitile:
+      "Learn nextjs by viewing how it works though navigating on different web page in this project",
+    time: "2d ago",
   },
 ];
