@@ -1,4 +1,5 @@
-import { images } from "@/config/home";
+import { projectImages } from "@/config/home";
+import Link from "next/dist/client/link";
 import Image from "next/image";
 
 export default function Projects() {
@@ -12,19 +13,21 @@ export default function Projects() {
         </p>
 
         <div className="-my-4 flex justify-center gap-5  py-4 sm:gap-8 group">
-          {images.map((image, index) => (
-            <div
+          {projectImages.map((image, index) => (
+            <Link
               className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-transparent sm:w-72 sm:rounded-2xl rotate-2 hover:-rotate-2 ease-in-out duration-300"
               key={index}
+              href={image.link}
             >
               <Image
                 width={800}
                 height={800}
                 src={image.src}
                 alt={image.alt}
+                title={image.alt}
                 className="absolute inset-0 h-full w-full object-cover"
               />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

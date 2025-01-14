@@ -30,12 +30,12 @@ export const uses: TUses[] = [
     category: "Productivity",
     items: [
       {
-        title: "Alfred",
+        title: "Notion",
         subtitle:
           "I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I've never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.",
       },
       {
-        title: "Reflect",
+        title: "App Eraser",
         subtitle:
           "I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I've never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.",
       },

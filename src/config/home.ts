@@ -18,26 +18,36 @@ export const hero = {
   lookingFor: "I'm currently looking for a new role as developer.",
   hire: "Contact me ?",
 };
-export const images = [
+export const projectImages = [
   {
-    src: "https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=384&q=75",
-    alt: "",
+    src: "/projects/academie.png",
+    alt: "Academie dela salle",
+    link: "https://academie-indol.vercel.app",
   },
   {
-    src: "https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=384&q=75",
-    alt: "",
+    src: "/projects/approuter.png",
+    alt: "Learn NextJs",
+    link: "https://app-router-nextjs-iota.vercel.app",
   },
   {
-    src: "https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.454151b1.jpg&w=384&q=75",
-    alt: "",
+    src: "/projects/google.png",
+    alt: "Search Engine",
+    link: "https://myengine.vercel.app",
   },
   {
-    src: "https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=384&q=75",
-    alt: "",
+    src: "/projects/todo.png",
+    alt: "TODO App",
+    link: "https://landingone.vercel.app/todo",
   },
   {
-    src: "https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.6c6f2784.jpg&w=384&q=75",
-    alt: "",
+    src: "/projects/travel.png",
+    alt: "Travel Landing page",
+    link: "https://travel-xi-nine.vercel.app",
+  },
+  {
+    src: "/projects/rathon.png",
+    alt: "Rathon",
+    link: "https://rathon.vercel.app",
   },
 ];
 
