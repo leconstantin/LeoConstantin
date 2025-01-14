@@ -46,7 +46,7 @@ export default function NavItem() {
           <div onClick={handleNav} className="flex justify-end pr-5">
             <MdOutlineClose
               size={29}
-              className="text-black hover:text-teal-400 cursor-pointer"
+              className="text-foreground hover:text-teal-400 cursor-pointer"
             />
           </div>
           <ul className="flex items-start gap-20 py-16  max-w-3xl mx-auto text-gray-600 capitalize dark:text-gray-300">
