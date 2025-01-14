@@ -20,7 +20,7 @@ const follows = [
   },
   {
     on: "Follow on LinkedIn",
-    link: "www.linkedin.com/in/leoconstantin",
+    link: "https://www.linkedin.com/in/leoconstantin",
     logo: <FaLinkedin className="group-hover:text-teal-600 size-6" />,
   },
 ];
