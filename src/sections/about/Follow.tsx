@@ -32,6 +32,7 @@ export default function Follow() {
           <li className=" py-2" key={i}>
             <a
               href={follow.link}
+              target="_blank"
               className="group flex gap-4 text-sm font-medium text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100 transition"
             >
               {follow.logo}
