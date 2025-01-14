@@ -5,18 +5,22 @@ import { SiGmail } from "react-icons/si";
 const follows = [
   {
     on: "Follow on X",
+    link: "https://x.com/le_con82546",
     logo: <BsTwitterX className="group-hover:text-teal-600 size-6" />,
   },
   {
     on: "Follow on Instagram",
+    link: "https://www.instagram.com/lecon_stantin",
     logo: <FaInstagram className="group-hover:text-teal-600 size-6" />,
   },
   {
     on: "Follow on GitHub",
+    link: "https://github.com/leconstantin",
     logo: <FaGithub className="group-hover:text-teal-600 size-6" />,
   },
   {
     on: "Follow on LinkedIn",
+    link: "www.linkedin.com/in/leoconstantin",
     logo: <FaLinkedin className="group-hover:text-teal-600 size-6" />,
   },
 ];
@@ -27,7 +31,7 @@ export default function Follow() {
         {follows.map((follow, i) => (
           <li className=" py-2" key={i}>
             <a
-              href=""
+              href={follow.link}
               className="group flex gap-4 text-sm font-medium text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100 transition"
             >
               {follow.logo}

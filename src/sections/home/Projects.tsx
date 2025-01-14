@@ -15,7 +15,7 @@ export default function Projects() {
         <div className="-my-4 flex justify-center gap-5  py-4 sm:gap-8 group">
           {projectImages.map((image, index) => (
             <Link
-              className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-transparent sm:w-72 sm:rounded-2xl rotate-2 hover:-rotate-2 ease-in-out duration-300"
+              className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-transparent sm:w-72 sm:rounded-2xl rotate-2 hover:-rotate-2 ease-in-out duration-300 ring-1 ring-border"
               key={index}
               href={image.link}
             >
